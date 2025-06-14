@@ -22,6 +22,11 @@ const skills = [
   { name: "GraphQL", level: 60, category: "backend" },
   { name: "FastAPI", level: 90, category: "backend" },
 
+  //Mobile Dev
+  {name:"Flutter",level:70,category:"Mobile Dev"},
+  {name:"Kotlin",level:80,categoty:"Mobile Dev"},
+  {name:"Dart",level:70,category:"Mobile Dev"}
+
   // Tools
   { name: "WebSockets", level: 80, category: "tools" },
   { name: "Docker", level: 70, category: "tools" },
@@ -31,7 +36,7 @@ const skills = [
   { name: "CI/CD", level: 80, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend","Mobile Dev", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
